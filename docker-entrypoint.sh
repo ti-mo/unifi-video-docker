@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Check if process has DAC_READ_SEARCH
 getpcaps 1 2>&1 | grep -q cap_dac_read_search
